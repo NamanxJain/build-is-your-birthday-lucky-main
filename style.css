@@ -3,6 +3,12 @@
   --black: rgb(255, 255, 255);
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 html {
   background-color: var(--background-dark);
   color: var(--black);
